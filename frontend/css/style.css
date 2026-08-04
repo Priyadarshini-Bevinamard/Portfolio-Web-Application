@@ -231,10 +231,62 @@ a {
   margin-top: 0;
 }
 
-.contact-form {
-  display: grid;
-  gap: 1.2rem;
-}
+  .education-section {
+    margin-top: 2rem;
+  }
+
+  .education-section h2 {
+    margin-bottom: 1rem;
+    font-size: 1.8rem;
+    color: #ffffff;
+  }
+
+  .education-cards {
+    display: grid;
+    gap: 1rem;
+  }
+
+  .education-card {
+    background: rgba(255, 255, 255, 0.05);
+    border: 1px solid rgba(255, 255, 255, 0.08);
+    padding: 1.75rem;
+    border-radius: 24px;
+    transition: transform 0.25s ease, border-color 0.25s ease, background 0.25s ease;
+  }
+
+  .education-card:hover {
+    transform: translateY(-4px);
+    border-color: rgba(124, 58, 237, 0.45);
+    background: rgba(124, 58, 237, 0.08);
+  }
+
+  .education-card .card-label {
+    font-size: 0.85rem;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #a5b4fc;
+    margin-bottom: 0.5rem;
+  }
+
+  .education-card h3 {
+    margin: 0;
+    font-size: 1.35rem;
+    line-height: 1.4;
+    color: #f8fafc;
+  }
+
+  .education-meta {
+    margin-top: 1rem;
+    display: grid;
+    gap: 0.7rem;
+    color: #dbeafe;
+  }
+
+  .education-meta span {
+    display: block;
+    font-size: 0.98rem;
+  }
+
 
 .form-group {
   display: grid;
@@ -347,4 +399,68 @@ a {
   .btn-primary {
     width: 100%;
   }
+}
+/* Education Section */
+.education-section {
+    margin-top: 50px;
+}
+
+.education-section h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.education-card {
+    background: #1f2940;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    transition: transform 0.3s ease;
+}
+
+.education-card:hover {
+    transform: translateY(-5px);
+}
+
+.card-label {
+    color: #8ab4ff;
+    font-size: 14px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.education-card h3 {
+    color: #ffffff;
+    margin-bottom: 15px;
+}
+
+.education-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #d6d6d6;
+}
+
+.education-meta strong {
+    color: #ffffff;
+}
+.project-links{
+    margin-top:18px;
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.project-links a{
+    color:#a78bfa;
+    text-decoration:none;
+    font-weight:600;
+    transition:0.3s;
+}
+
+.project-links a:hover{
+    color:#c4b5fd;
+    text-decoration:underline;
 }
