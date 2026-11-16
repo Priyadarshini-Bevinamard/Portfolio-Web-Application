@@ -2,6 +2,7 @@
 
 A full portfolio website built with Python Flask, SQLite, and a responsive HTML/CSS/JavaScript frontend.
 
+
 ## Project Structure
 
 - `app.py` - Flask application entry point
